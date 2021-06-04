@@ -83,6 +83,11 @@ a.btn {
     color: white;
 }
 
+.btn-blue {
+    background-color: rgb(144, 162, 220);
+    color: white;
+}
+
 section img {
     width: 100%;
 }
@@ -202,14 +207,23 @@ section {
 
 /* sezione 4 */
 
-.section4 .last-text {
-    background-image: url('../img/stars.svg');
-    background-size: 90%;
-    background-position: top;
-    background-repeat: no-repeat;
-    border: 1px solid black;
+.section4 h2 {
+    padding-top: 80px;
+    padding-bottom: 5px;
+}
+
+.section4 p {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+}
+
+#star {
     width: 50%;
-    height: 50px;
-    line-height: 50px;
-    font-size: 1.6rem;
+}
+
+.section4 .last-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 40px;
 }
