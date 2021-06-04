@@ -89,7 +89,13 @@ section img {
 
 .wave-grey {
     height: 100px;
-    background-image: url(../img/wave-grey.svg);
+    background-image: url('../img/wave-grey.svg');
+}
+
+.wave-grey-rotate {
+    height: 100px;
+    background-image: url('../img/wave-grey.svg');
+    transform: rotate(180deg);
 }
 
 .bg-grey {
@@ -160,37 +166,50 @@ header .menu {
     padding-bottom: 30px;
 }
 
-/* sezione 1 */
+/* main */
 
-.section1 {
+section {
     padding-bottom: 80px;
 }
 
-.section1 .column.w-60 {
-    padding-top: 60px;
+/* sezione 1 e 3*/
+
+.section1 .column.w-60,
+.section3 .column.w-60 {
+    padding-top: 70px;
     padding-right: 30px;
 }
 
-.section1 .column.w-40 {
-    padding-top: 90px;
+.section1 .column.w-40,
+.section3 .column.w-40 {
+    padding-top: 100px;
     padding-left: 65px;
     padding-right: 54px;
 }
 
 /* sezione 2 */
 
-.section2 {
-    padding-bottom: 80px;
-}
-
 .section2 .column.w-60 {
-    padding-top: 60px;
+    padding-top: 70px;
     padding-left: 30px;
 }
 
 .section2 .column.w-40 {
-    padding-top: 90px;
+    padding-top: 100px;
     padding-right: 65px;
     padding-left: 45px;
 }
 
+/* sezione 4 */
+
+.section4 .last-text {
+    background-image: url('../img/stars.svg');
+    background-size: 90%;
+    background-position: top;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    width: 50%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.6rem;
+}
