@@ -259,3 +259,9 @@ footer .column {
     border: 1px solid red;
     height: 300px;
 }
+
+footer h3 {
+    font-size: 1.5rem;
+    color: rgb(117, 139, 213);
+}
+
