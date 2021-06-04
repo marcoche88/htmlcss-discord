@@ -92,6 +92,20 @@ section img {
     background-image: url(../img/wave-grey.svg);
 }
 
+.bg-grey {
+    background-color: rgb(246, 246, 246);
+}
+
+section h2 {
+    font-size: 2.2rem;
+    line-height: 2.8rem;
+}
+
+section p {
+    line-height: 1.5rem;
+    padding-top: 25px;
+}
+
 /* header */
 
 header .menu {
@@ -163,13 +177,20 @@ header .menu {
     padding-right: 54px;
 }
 
-.section1 .column.w-40 h2 {
-    font-size: 2.2rem;
-    line-height: 2.8rem;
+/* sezione 2 */
+
+.section2 {
+    padding-bottom: 80px;
 }
 
-.section1 .column.w-40 p {
-    line-height: 1.5rem;
-    padding-top: 25px;
+.section2 .column.w-60 {
+    padding-top: 60px;
+    padding-left: 30px;
+}
+
+.section2 .column.w-40 {
+    padding-top: 90px;
+    padding-right: 65px;
+    padding-left: 45px;
 }
 
