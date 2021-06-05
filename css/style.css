@@ -47,6 +47,10 @@ body {
     width: 40%;
 }
 
+.w-50 {
+    width: 50%;
+}
+
 .w-60 {
     width: 60%;
 }
@@ -145,7 +149,7 @@ header .menu {
     line-height: 60px;
 }
 
-#logo {
+#logo-top {
     vertical-align: middle;
 }
 
@@ -248,20 +252,73 @@ section {
     padding-bottom: 40px;
 }
 
+/* footer top*/
 
-/* footer */
-
-footer {
-    height: 500px;
+.footer-top .column {
+    padding-top: 60px;
 }
 
-footer .column {
-    border: 1px solid red;
-    height: 300px;
+.footer-top .column.w-40 {
+    padding-right: 140px;
 }
 
-footer h3 {
+.footer-top h3 {
     font-size: 1.5rem;
     color: rgb(117, 139, 213);
 }
 
+.footer-top .lang {
+    padding: 17px 0;
+}
+
+#flag {
+    width: 20px;
+    vertical-align: middle;
+}
+
+.footer-top .lang .italian {
+    font-size: 0.7rem;
+    vertical-align: middle;
+}
+
+.footer-top .icon .fab {
+    padding-right: 15px;
+}
+
+.footer-top h4 {
+    font-size: 0.8rem;
+    color: rgb(117, 139, 213);
+}
+
+.footer-top .column.w-15 li {
+    list-style-type: none;
+    padding-top: 8px;
+    font-size: 0.8rem;
+}
+
+.footer-top .column.w-15 li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-top .column.w-15 li a:hover {
+    text-decoration: underline;
+}
+
+/* footer bottom */
+
+.footer-bottom {
+    height: 130px;
+    margin-top: 25px;
+    border-top: 1px solid rgb(117, 139, 213);
+    padding-bottom: 60px;
+}
+
+.footer-bottom .column {
+    height: 80px;
+    line-height: 80px;
+}
+
+ #logo-bottom, .footer-bottom .btn {
+    vertical-align: middle;
+}
