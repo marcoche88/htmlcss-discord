@@ -73,10 +73,13 @@ a.btn {
 
 a.btn.btn-white:hover {
     color: rgb(87, 106, 234);
+    box-shadow: 0px 0px 8px rgba(102, 102, 102, 0.8);
+    
 }
 
 a.btn.btn-black:hover {
     background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 0px 8px rgba(144, 162, 220, 0.8);
 }
 
 a.btn.btn-blue:hover {
@@ -296,7 +299,8 @@ section {
     font-size: 0.8rem;
 }
 
-.footer-top .column.w-15 li a {
+.footer-top .column.w-15 li a,
+.footer-top .column.w-40 .icon a {
     text-decoration: none;
     color: white;
 }
